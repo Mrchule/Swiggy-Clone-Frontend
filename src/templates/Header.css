@@ -1,0 +1,64 @@
+.Header{
+    z-index: 100;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    box-shadow:0 15px 40px -20px rgba(40,44,63,.15);
+}
+.innerheader{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerheader .left-header{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerheader .left-header ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerheader .right-header{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerheader .right-header ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerheader .right-header ul li a{
+    color:#3d4152;
+    font-size: 1.1 rem;
+    transition: .1s linear;
+    text-decoration: none;
+}
+.innerheader .right-header ul li a:hover{
+    color:#f29f32;
+}
+.innerheader .right-header ul li i{
+    margin-right:7px;
+}
+ul li sup{
+    margin: 5px;
+}

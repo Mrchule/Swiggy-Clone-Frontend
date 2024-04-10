@@ -1,0 +1,27 @@
+.Card-container{
+    border: 2px solid grey;
+    box-shadow: 0 0 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    width: 270px;
+    height: 280px;
+    text-align: center;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Card-container div img{
+    height: 170px;
+    width: 200px;
+    border-radius:5px;
+    background-position: center;
+    transition: .12s linear;
+}
+.Card-container img:hover{
+    scale: 1.1;
+}
+.cards{
+width: 80%;
+
+}

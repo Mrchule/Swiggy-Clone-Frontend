@@ -1,0 +1,32 @@
+.items{
+    height:180px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.items img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.row{
+    margin: 0;;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+}
+.idk{
+    width: 100%;
+    overflow: hidden;
+}
+.ovr{
+    overflow-x: scroll;
+}

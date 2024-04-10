@@ -1,0 +1,19 @@
+.Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  background-color: #ffffff;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
